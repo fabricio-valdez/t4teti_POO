@@ -1,0 +1,10 @@
+button{
+    width: 150px;
+    height: 150px;
+}
+.paneles{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 600px;
+    margin: auto;
+}
