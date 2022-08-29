@@ -1,4 +1,4 @@
 const btnPulsado = () => {
-    alert(1)
+    alert('Hola!')
 }
 document.querySelector('button').forEach(obj => obj.addEventListener('click','btnPulsado'));
