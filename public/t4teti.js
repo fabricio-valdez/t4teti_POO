@@ -6,7 +6,7 @@ const btnPanel = (panel, posicion) => {
     const jugador = turno % 2 ? 'red' : 'green'; 
     btn.style.backgroundColor = jugador;
     Paneles [posicion] = jugador;
-    alert (juego())
+    if(juego())alert('Gano el jugador ' + jugador)
 }
 const juego = () =>{
     if (Paneles[0] == Paneles[1] && Paneles[0] == Paneles[2] && Paneles[0]){
