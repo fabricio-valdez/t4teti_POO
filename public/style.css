@@ -8,3 +8,11 @@ button{
     width: 500px;
     margin: auto;
 }
+.conteiner_footer{
+    display: grid;
+    grid-template-columns: repeat(2,auto);
+    background-color: darkorchid;
+}
+.conteiner_footer div{
+    
+}
