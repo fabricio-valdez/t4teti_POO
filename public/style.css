@@ -7,12 +7,21 @@ button{
     grid-template-columns: 1fr 1fr 1fr;
     width: 500px;
     margin: auto;
+    padding-top: 5em;
 }
-.conteiner_footer{
+.conteiner_header{
     display: grid;
-    grid-template-columns: repeat(2,auto);
+    grid-template-columns: 3fr;
     background-color: darkorchid;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    justify-content: center;
 }
-.conteiner_footer div{
-    
+.conteiner_header div{
+    height: 5em;
+}
+.conteiner_header div a img{
+    height: 100%;
+    padding-left: 47.1%;
 }
