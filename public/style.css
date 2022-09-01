@@ -28,9 +28,3 @@ button{
 article {
     width: 100%;
 }
-@media (min-width:450px) {
-    button{
-        width: 25px;
-        height: 25px;
-    }
-}
