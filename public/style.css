@@ -25,3 +25,12 @@ button{
     height: 100%;
     padding-left: 47.1%;
 }
+article {
+    width: 100%;
+}
+@media (min-width:490px) {
+    button{
+        width: 50px;
+        height: 50px;
+    }
+}
